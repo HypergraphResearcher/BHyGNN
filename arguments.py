@@ -92,7 +92,6 @@ def parse_args():
     parser.add_argument("--num_hyperedges", default=0, type=int)  # Placeholder
     parser.add_argument("--num_edges", default=0, type=int)  # Placeholder
 
-    # Args for Billy
     parser.add_argument("--num_conv_layers", default=2, type=int)
     parser.add_argument("--num_MF_layers", default=2, type=int)
     parser.add_argument("--MF_hidden", default=256, type=int)
